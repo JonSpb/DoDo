@@ -1,0 +1,276 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #464c55;
+  align-items: center;
+}
+
+.dodo__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  margin-top: 50px;
+  max-width: 1060px;
+  margin-bottom: 50px;
+}
+
+.dodo__info li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.dodo__review {
+  width: 137px;
+}
+
+.dodo__work {
+  width: 147px;
+}
+
+.dodo__partners {
+  width: 154px;
+}
+
+.dodo__intresting {
+  width: 166px;
+}
+
+.dodo__title {
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  padding-left: 0px;
+}
+
+.dodo__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  opacity: 0.7;
+}
+
+.dodo__contacts {
+  width: 276px;
+  margin-left: 76px;
+}
+
+.dodo__application {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 29px;
+}
+
+.dodo__number {
+  text-align: right;
+}
+
+.dodo__number p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 6px;
+}
+
+.dodo__mobile {
+  font-size: 26px;
+  line-height: 26px;
+  color: white;
+}
+
+.dodo__email {
+  font-family: "Nunito";
+  font-size: 15px;
+  line-height: 20.46px;
+  color: white;
+  text-align: right;
+  margin-top: 26px;
+}
+
+.dodo__statistic {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  width: 1060px;
+}
+
+.dodo__profit {
+  width: 299px;
+  margin-right: 156px;
+}
+
+.dodo__statistic-title {
+  font-size: 26px;
+  margin-bottom: 0px;
+
+  color: #ffffff;
+}
+
+.dodo__statistic-description {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.dodo__pizzerias {
+  width: 241px;
+}
+
+.dodo__line {
+  color: #ffffff;
+  width: 1060px;
+  margin: 0px auto;
+}
+
+.dodo__services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 46px;
+  margin-bottom: 40px;
+  width: 1060px;
+  color: #c7c8cb;
+}
+
+.dodo__logo {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 276px;
+  font-size: 16px;
+}
+
+.dodo__pizza_header {
+  color: #C7C8CB;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.dodo__logo-year {
+  width: 100%;
+  margin-left: 28px;
+  margin-top: 7px;
+}
+
+.dodo__help {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 441px;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.dodo__help-pravo {
+  margin-top: 0px;
+}
+
+.dodo__help-composition {
+  margin-top: 0px;
+}
+
+.dodo__help-help {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .dodo__line-mob {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #464c55;
+    align-items: flex-start;
+    padding: 16px 20px 0px;
+    height: 1100px;
+  }
+
+  .dodo__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 1060px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .dodo__email {
+    margin-top: 0px;
+    width: 186px;
+    text-align: left;
+
+  }
+
+  .dodo__statistic {
+    display: none;
+  }
+
+  .dodo__number {
+    display: none;
+  }
+
+  .dodo__contacts {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0px;
+  }
+
+  .dodo__application {
+    display: flex;
+    margin-bottom: 0px;
+  }
+
+  .dodo__help {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 177px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .dodo__services {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 276px;
+    color: #c7c8cb;
+  }
+
+  .dodo__line {
+    display: none;
+  }
+
+  .dodo__line-mob {
+    color: #F3F3F7;
+    width: 288px;
+    margin: 0px auto;
+  }
+  .dodo__network{
+    margin-bottom: 20px;
+  }
+
+  .dodo__logo-pizza{
+    font-size: 21px;
+    font-weight:bolder;
+  }
+
+  .dodo__logo-year{
+    margin-top: 5px;
+  }
+
+  .dodo__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 276px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+}

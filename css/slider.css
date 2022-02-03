@@ -1,0 +1,33 @@
+.slider__box {
+  overflow: hidden;
+  max-width: 100%;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* transform: translateX(calc(-100% - 30px)); */
+  /* gap: 30px; */
+  /* filter: drop-shadow(0px 5px 20px rgba(115, 121, 140, 0.15)); */
+}
+
+.slider__image {
+  flex-shrink: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  position: relative; 
+}
+/* 
+.slider__image_opacity {
+  opacity: 0.2;
+} */
+
+.btn {
+  text-align: center;
+  margin-bottom: 20px;
+}

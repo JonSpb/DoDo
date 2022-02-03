@@ -1,0 +1,109 @@
+@media (min-width: 768px) {
+    .header__mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        width:100%;
+    }
+
+    .container {
+        margin-left: 16px;
+    }
+
+    /* ---------------------------------- HEADER CONTAINER ---------------------------------- */
+    .container {
+        margin-top: 0px;
+    }
+
+    .header__logo-image {
+        width: 22.5px;
+        height: 23px;
+        padding-top: 12px;
+    }
+
+    .header__title {
+        width: 125.32px;
+        height: 14.15px;
+        padding-top: 18px;
+        margin-left: -8px;
+    }
+
+    .header__descripton {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+    
+    .header__title__text{
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .button__basket {
+        display: none;
+    }
+
+    /* ---------------------------------- SLIDER BOX ---------------------------------- */
+    .slider {
+        transform: initial;
+        gap: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .slider__image {
+        width: 250px;
+        object-fit: cover;
+        height:93px;
+        object-position: left center;
+        opacity: 100;
+        border-radius: 8px;
+    }
+
+    /* ---------------------------------- POPULAR PIZZA ---------------------------------- */
+    .popular__title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .popular__all {
+        gap: 10px;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+
+    .popular__pizza {   
+        padding-left: 18px;
+        box-shadow: 0px 6px 15px rgba(6, 5, 50, 0.05);
+    }
+
+    .block__description {
+        width: 135px;
+    }
+    
+    .pizza__image {
+        width: 86px;
+        height: 86px;
+        margin-left: 0px;
+        margin-top: 11px;
+    }
+
+    .popular__description {
+        padding-top: 17px;
+    }
+
+    .popular__description-price {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    
+}

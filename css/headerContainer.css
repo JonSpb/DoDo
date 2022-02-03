@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+} 
+
+.header__logo {
+    width: 250px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo-image {
+    width: 42px;
+    height: 44px;
+}
+
+.header__text-logo {
+    margin-left: 14px;
+}
+
+.header__descripton {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.header__title__phone{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24.55px;
+}
+
+.header__title__text{
+    float: right;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 20.46px;
+}
